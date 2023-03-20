@@ -1,0 +1,116 @@
+<!-- you can get access to this code in my GITHUB account!!! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEGIN AH FRESH</title>
+    <link rel="shortcut icon" href="images/U6-removebg-preview.png" type="image/x-icon">
+
+    <!-- USED INTERNAL CSS STYLING HERE!!! -->
+    <style>
+        table, th, td {
+            border: 3px solid white;
+            /* border-collapse: collapse; */
+            cursor: pointer;
+        }
+
+        table {
+            margin: 0 auto;
+            max-width: 700px;
+            /* border-spacing: .0rem; */
+            border: 1px solid rgba(0, 0, 0, 20%);
+            border-radius: 12px;
+        }
+
+        th, td {
+            /* background-color: rgb(70, 60, 60); */
+            /* color: whitesmoke; */
+            padding: 0;
+        }
+
+        th:nth-child(even), td:nth-child(even) {
+            background-color: antiquewhite;
+        }
+
+        td {
+            height: 30px;
+            text-align: center;
+            padding: .5rem 1.5rem;
+        }
+
+        th {
+            height: 50px;
+            text-transform: uppercase;
+            padding: 0 1rem;
+        }
+
+        /* USED CSS PSEUDO CLASSES HERE! */
+        th:nth-child(1) {
+            border-top-left-radius: 10px;
+        }
+
+        th:nth-child(4) {
+            border-top-right-radius: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: pink;
+        }
+
+        tr:nth-of-type(4) td:first-child {
+            border-bottom-left-radius: 10px;
+        }
+
+         tr:nth-of-type(4) td:last-child {
+            border-bottom-right-radius: 10px;
+        }
+
+          tr:nth-of-type(1):hover {
+            background: none;
+        }
+
+        tr:hover {
+            background-color: rgb(189, 101, 101);
+        }
+    </style>
+</head>
+
+<!-- body section -->
+<body style="margin: 35vh auto;">
+
+    <!-- HTML Tables... -->
+    <table style="width: 80%;">
+    <caption style="color: rgb(59, 68, 59); text-transform: uppercase; font-weight: 700;font-family: sans-serif;">Personal Data</caption>
+
+        <tr>
+            <th style="width: 25%;">Firstname</th>
+            <th style="width: 25%;">Lastname</th>
+            <th style="width: 25%;">Gender</th>
+            <th colspan="2" width="25%">Food Choice</th>
+        </tr>
+        <tr>
+            <td>Samuel</td>
+            <td>Giveson</td>
+            <td>Male</td>
+            <td>Rice</td>
+            <td>Stew</td>
+        </tr>
+        <tr>
+            <td>Mitchelle</td>
+            <td>Scott</td>
+            <td>Female</td>
+            <td>Bread</td>
+            <td>Beans</td>
+        </tr>
+        <tr>
+            <td>Soft</td>
+            <td>Ware</td>
+            <td>Others</td>
+            <td>Focus</td>
+            <td>Discipline</td>
+        </tr>
+    </table>
+</body>
+</html>
